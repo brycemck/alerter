@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D88D726C26A61EB4007547F5 /* opal-logo.icns in Sources */ = {isa = PBXBuildFile; fileRef = D806334026A606EB00D16D87 /* opal-logo.icns */; };
 		FFD010601C24B20B00D55A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD0105F1C24B20B00D55A9D /* main.m */; };
 		FFD010671C24B28C00D55A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD010661C24B28C00D55A9D /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -24,7 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FFD0105C1C24B20B00D55A9D /* alerter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alerter; sourceTree = BUILT_PRODUCTS_DIR; };
+		D806334026A606EB00D16D87 /* opal-logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "opal-logo.icns"; path = "../../Documents/opal-logo.icns"; sourceTree = "<group>"; };
+		FFD0105C1C24B20B00D55A9D /* Opal Wizard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Opal Wizard"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD0105F1C24B20B00D55A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = alerter/main.m; sourceTree = "<group>"; };
 		FFD010661C24B28C00D55A9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = alerter/AppDelegate.m; sourceTree = "<group>"; };
 		FFD010681C24B29900D55A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = alerter/AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		FFD010531C24B20B00D55A9D = {
 			isa = PBXGroup;
 			children = (
+				D806334026A606EB00D16D87 /* opal-logo.icns */,
 				FFD0105F1C24B20B00D55A9D /* main.m */,
 				FFD010661C24B28C00D55A9D /* AppDelegate.m */,
 				FFD010681C24B29900D55A9D /* AppDelegate.h */,
@@ -58,7 +61,7 @@
 		FFD0105D1C24B20B00D55A9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFD0105C1C24B20B00D55A9D /* alerter */,
+				FFD0105C1C24B20B00D55A9D /* Opal Wizard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFD0105B1C24B20B00D55A9D /* alerter */ = {
+		FFD0105B1C24B20B00D55A9D /* opal-alerter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFD010631C24B20B00D55A9D /* Build configuration list for PBXNativeTarget "alerter" */;
+			buildConfigurationList = FFD010631C24B20B00D55A9D /* Build configuration list for PBXNativeTarget "opal-alerter" */;
 			buildPhases = (
 				FFD010581C24B20B00D55A9D /* Sources */,
 				FFD010591C24B20B00D55A9D /* Frameworks */,
@@ -78,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = alerter;
+			name = "opal-alerter";
 			productName = alerter;
-			productReference = FFD0105C1C24B20B00D55A9D /* alerter */;
+			productReference = FFD0105C1C24B20B00D55A9D /* Opal Wizard */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -89,7 +92,7 @@
 		FFD010541C24B20B00D55A9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "JEANTET Valere";
 				TargetAttributes = {
 					FFD0105B1C24B20B00D55A9D = {
@@ -97,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FFD010571C24B20B00D55A9D /* Build configuration list for PBXProject "alerter" */;
+			buildConfigurationList = FFD010571C24B20B00D55A9D /* Build configuration list for PBXProject "opal-alerter" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFD0105B1C24B20B00D55A9D /* alerter */,
+				FFD0105B1C24B20B00D55A9D /* opal-alerter */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88D726C26A61EB4007547F5 /* opal-logo.icns in Sources */,
 				FFD010671C24B28C00D55A9D /* AppDelegate.m in Sources */,
 				FFD010601C24B20B00D55A9D /* main.m in Sources */,
 			);
@@ -151,6 +155,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -175,10 +180,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = alerter;
+				PRODUCT_NAME = "opal-alerter";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -206,6 +211,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -225,9 +231,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = alerter;
+				PRODUCT_NAME = "opal-alerter";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -237,21 +243,20 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				DEVELOPMENT_TEAM = NQLLJK2GK3;
+				DEVELOPMENT_TEAM = V775369CAU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREFIX_HEADER = alerter/Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/alerter/Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 004;
-				OTHER_CODE_SIGN_FLAGS = "-i fr.vjeantet.${PRODUCT_NAME:rfc1034identifier}";
 				OTHER_LDFLAGS = (
 					"-sectcreate",
 					__TEXT,
 					__info_plist,
 					"${INFOPLIST_FILE}",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.vjeantet.alerter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.workwithopal.alerter;
+				PRODUCT_NAME = "Opal Wizard";
 			};
 			name = Debug;
 		};
@@ -260,28 +265,27 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				DEVELOPMENT_TEAM = NQLLJK2GK3;
+				DEVELOPMENT_TEAM = V775369CAU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREFIX_HEADER = alerter/Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/alerter/Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 004;
-				OTHER_CODE_SIGN_FLAGS = "-i fr.vjeantet.${PRODUCT_NAME:rfc1034identifier}";
 				OTHER_LDFLAGS = (
 					"-sectcreate",
 					__TEXT,
 					__info_plist,
 					"${INFOPLIST_FILE}",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.vjeantet.alerter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.workwithopal.alerter;
+				PRODUCT_NAME = "Opal Wizard";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFD010571C24B20B00D55A9D /* Build configuration list for PBXProject "alerter" */ = {
+		FFD010571C24B20B00D55A9D /* Build configuration list for PBXProject "opal-alerter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFD010611C24B20B00D55A9D /* Debug */,
@@ -290,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFD010631C24B20B00D55A9D /* Build configuration list for PBXNativeTarget "alerter" */ = {
+		FFD010631C24B20B00D55A9D /* Build configuration list for PBXNativeTarget "opal-alerter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFD010641C24B20B00D55A9D /* Debug */,

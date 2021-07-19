@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleExecutable</key>
-	<string>alerter</string>
+	<string>opal-alerter</string>
 	<key>CFBundleIconFile</key>
-	<string>Terminal</string>
+	<string>opal-logo</string>
 	<key>CFBundleIdentifier</key>
-	<string>fr.vjeantet.alerter</string>
+	<string>com.workwithopal.alerter</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

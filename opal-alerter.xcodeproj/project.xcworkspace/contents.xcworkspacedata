@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:alerter.xcodeproj">
+      location = "self:/Users/brycemckenney/Projects/alerter/opal-alerter.xcodeproj">
    </FileRef>
 </Workspace>
